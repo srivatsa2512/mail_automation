@@ -1,20 +1,4 @@
-# import smtplib
-#
-# email = "shreeramtheboss0@gmail.com"
-#
-# with smtplib.SMTP("smtp.gmail.com") as c:
-#     c.starttls()
-#     c.login(user=email,password=pwd)
-#     c.sendmail(from_addr=email,to_addrs="srivatsa1225@yahoo.com",msg="subject:hello\n\nhello shede")
 
-# import datetime as dt
-#
-# now = dt.datetime.now()
-# year = now.year
-# month = now.month
-#
-# mc = now.microsecond
-# print(mc)
 import smtplib
 import datetime as dt
 import random
